@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>곽민조 5주차 과제</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/common.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_wrap">
+            <div class="header_top">
+                <h1>
+                    <a href="/">
+                        <img src="./images/logoWhite.png" alt="">
+                    </a>
+                </h1>
+                <ul class="member">
+                    <li><a href="">멤버쉽</a></li>
+                    <li><a href="">고객센터</a></li>
+                    <li><a href="">단체관람/대관문의</a></li>
+                    <li><a href="">로그인</a></li>
+                </ul>
+                <div class="customer">
+                    <a href=""> <i class="xi-man">회원가입</i></a>
+                    <a href=""> <i class="xi-print"> 바로예매</i></a>
+                    <a href=""> <i class="xi-bars"></i></a>
+                </div>
+            </div>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="/">예매</a>
+                        <ul class="sub">
+                            <li>예매하기</li>
+                            <li>상영시간표</li>
+                            <li>할인안내</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">영화</a>
+                        <ul class="sub">
+                            <li>홈</li>
+                            <li>현재상영작</li>
+                            <li>상영예정작</li>
+                            <li>아르떼</li>
+                            <li>국립극장</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">영화관</a>
+                        <ul class="sub">
+                            <li>스페셜관</li>
+                            <li>서울</li>
+                            <li>경기/인천</li>
+                            <li>충청/대전</li>
+                            <li>전라/광주</li>
+                            <li>경북/대구</li>
+                            <li>경남/부산/울산</li>
+                            <li>강원</li>
+                            <li>제주</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">이벤트</a>
+                        <ul class="sub">
+                            <li>홈</li>
+                            <li>영화</li>
+                            <li>시사회/무대안사</li>
+                            <li>HOT</li>
+                            <li>제휴할인</li>
+                            <li>우리동네영화관</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">스토어</a>
+                        <ul class="sub">
+                            <li>베스트</li>
+                            <li>관람권</li>
+                            <li>스낵/음료</li>
+                            <li>포토카드</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="main_movie">
+            <div class="swiper main_movie_slide">
+                <div class="movie_slide swiper-wrapper">
+                    <div class="poster poster01 swiper-slide"></div>
+                    <div class="poster poster02 swiper-slide"></div>
+                    <div class="poster poster03 swiper-slide"></div>
+                    <div class="poster poster04 swiper-slide"></div>
+                </div>
+            </div>
+        </section>
+        <section class="main_visual">
+            <div class="swiper main_visual_wrap">
+                <div class="main_slide swiper-wrapper">
+                    <div class="itm itm01 swiper-slide">
+                        <div class="img_box">
+                            <img src="./images/slide01.jpg" alt="">
+                        </div>
+                        <span class="grade grade01">12</span>
+                        <strong>서울의 봄</strong>
+                        <span class="ticket">예매율62.2%</span>
+                        <span class="star"> <i class="xi-star"></i> 9.6</span>
+                    </div>
+                    <div class="itm itm02 swiper-slide">
+                        <div class="img_box img_box01">
+                            <img src="./images/slide02.jpg" alt="">
+                        </div>
+                        <span class="grade grade01">12</span>
+                        <strong>싱글 인 서울</strong>
+                        <span class="ticket">예매율9.0%</span>
+                        <span class="D_day">D-5</span>
+                    </div>
+                    <div class="itm itm03 swiper-slide">
+                        <div class="img_box img_box02">
+                            <img src="./images/slide03.jpg" alt="">
+                        </div>
+                        <span class="grade grade01">12</span>
+                        <strong>괴물</strong>
+                        <span class="ticket">예매율6.3%</span>
+                        <span class="D_day">D-5</span>
+                    </div>
+                    <div class="itm itm04 swiper-slide">
+                        <div class="img_box">
+                            <img src="./images/slide04.jpg" alt="">
+                        </div>
+                        <span class="grade grade01">12</span>
+                        <strong>프레디의 피자가게</strong>
+                        <span class="ticket">예매율3.5%</span>
+                        <span class="star"> <i class="xi-star"></i> 8.5</span>
+                    </div>
+                    <div class="itm itm05 swiper-slide">
+                        <div class="img_box">
+                            <img src="./images/slide05.jpg" alt="">
+                        </div>
+                        <span class="grade grade02">ALL</span>
+                        <strong>스노우 폭스:썰매개가..</strong>
+                        <span class="ticket">예매율2.4%</span>
+                        <span class="star"> <i class="xi-star"></i> 9.1</span>
+                    </div>
+                    <div class="itm itm06 swiper-slide">
+                        <div class="img_box">
+                            <img src="./images/slide06.jpg" alt="">
+                        </div>
+                        <span class="grade grade01">12</span>
+                        <strong>오늘 밤, 세계에서 이..</strong>
+                        <span class="ticket">예매율2.1%</span>
+                        <span class="star"> <i class="xi-star"></i> 9.2</span>
+                    </div>
+                    <div class="itm itm07 swiper-slide">
+                        <div class="img_box">
+                            <img src="./images/slide07.jpg" alt="">
+                        </div>
+                        <span class="grade grade03">15</span>
+                        <strong>헝거게임: 노래하는 새..</strong>
+                        <span class="ticket">예매율1.9%</span>
+                        <span class="star"> <i class="xi-star"></i> 8.3</span>
+                    </div>
+                    <div class="itm itm08 swiper-slide">
+                        <div class="img_box">
+                            <img src="./images/slide08.jpg" alt="">
+                        </div>
+                        <span class="grade grade02">ALL</span>
+                        <strong>그대들은 어떻게 살..</strong>
+                        <span class="ticket">예매율1.7%</span>
+                        <span class="star"> <i class="xi-star"></i> 8.2</span>
+                    </div>
+                    <div class="itm itm09 swiper-slide">
+                        <div class="img_box">
+                            <img src="./images/slide10.jpg" alt="">
+                        </div>
+                        <span class="grade grade01">12</span>
+                        <strong>시간을 달리는 소녀</strong>
+                        <span class="ticket">예매율1.4%</span>
+                        <span class="star"> <i class="xi-star"></i> 7.8</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="special">
+            <div class="special01">
+                <h2>스페셜관</h2>
+                <a href="">더보기 <i class="xi-angle-right"></i></a>
+            </div>
+            <div class="inner">
+                <div class="special_box01">
+                    <img src="./images/spawn01.png" alt="">
+                </div>
+                <div class="special_box02">
+                    <img src="./images/spawn02.png" alt="">
+                </div>
+                <div class="special_box03">
+                    <img src="./images/spawn03.png" alt="">
+                </div>
+                <div class="special_box04">
+                    <img src="./images/spawn04.png" alt="">
+                </div>
+                <div class="special_box05">
+                    <img src="./images/spawn05.png" alt="">
+                </div>
+                <div class="special_box06">
+                    <img src="./images/spawn06.png" alt="">
+                </div>
+                <div class="special_box07">
+                    <img src="./images/spawn07.png" alt="">
+                </div>
+                <div class="special_box08">
+                    <img src="./images/spawn08.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="event">
+            <div class="event01">
+                <span>이벤트</span>
+                <a href="">더보기 <i class="xi-angle-right"></i></a>
+            </div>
+            <div class="event_wrap">
+                <div class="event_box01 event_box">
+                    <img src="./images/event01.jpg" alt="">
+                </div>
+                <div class="event_box02 event_box">
+                    <img src="./images/event02.jpg" alt="">
+                </div>
+                <div class="event_box03 event_box">
+                    <img src="./images/event03.jpg" alt="">
+                </div>
+                <div class="event_box04 event_box">
+                    <img src="./images/event04.jpg" alt="">
+                </div>
+
+                <div class="event_box06 event_box">
+                    <img src="./images/event05.jpg" alt="">
+                </div>
+                <div class="event_box05 event_box">
+                    <img src="./images/event06.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="show">
+            <div class="show01">
+                <span>시사회/무대인사</span>
+                <a href="">더보기 <i class="xi-angle-right"></i></a>
+            </div>
+            <div class="show_wrap">
+                <div class="show_box">
+                    <img src="./images/show01.jpg" alt="">
+                </div>
+                <div class="show_box">
+                    <img src="./images/show02.jpg" alt="">
+                </div>
+                <div class="show_box">
+                    <img src="./images/show03.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>
