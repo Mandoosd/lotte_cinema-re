@@ -8,11 +8,11 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/common.css">
 
     <link rel="stylesheet" href="./css/style.css">
 
@@ -26,7 +26,7 @@
 <body>
     <header class="header">
         <div class="header_wrap">
-            <div class="header_top">
+            <div class="header_top inner">
                 <h1>
                     <a href="/">
                         <img src="./images/logoWhite.png" alt="">
@@ -44,7 +44,7 @@
                     <a href=""> <i class="xi-bars"></i></a>
                 </div>
             </div>
-            <nav class="gnb">
+            <nav class="gnb inner">
                 <ul>
                     <li>
                         <a href="/">예매</a>
@@ -104,176 +104,138 @@
         </div>
     </header>
     <main class="main">
-        <section class="main_movie">
-            <div class="swiper main_movie_slide">
-                <div class="movie_slide swiper-wrapper">
-                    <div class="poster poster01 swiper-slide"></div>
-                    <div class="poster poster02 swiper-slide"></div>
-                    <div class="poster poster03 swiper-slide"></div>
-                    <div class="poster poster04 swiper-slide"></div>
+        <section class="main_movie_slide">
+            <div class="main_movie_slide_wrap inner">
+                <div class="swiper main-slide ">
+                    <div class="movie_slide swiper-wrapper">
+                        <div class="itm itm01 swiper-slide"><img src="./images/slide01.jpg" alt=""></div>
+                        <div class="itm itm02 swiper-slide"><img src="./images/slide02.jpg" alt=""></div>
+                        <div class="itm itm03 swiper-slide"><img src="./images/slide03.jpg" alt=""></div>
+                        <div class="itm itm04 swiper-slide"><img src="./images/slide04.jpg" alt=""></div>
+                        <div class="itm itm05 swiper-slide"><img src="./images/slide05.jpg" alt=""></div>
+                        <div class="itm itm06 swiper-slide"><img src="./images/slide06.jpg" alt=""></div>
+                        <div class="itm itm07 swiper-slide"><img src="./images/slide07.jpg" alt=""></div>
+                        <div class="itm itm08 swiper-slide"><img src="./images/slide08.jpg" alt=""></div>
+                        <div class="itm itm09 swiper-slide"><img src="./images/slide09.jpg" alt=""></div>
+                        <div class="itm itm10 swiper-slide"><img src="./images/slide10.jpg" alt=""></div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="main_visual">
-            <div class="swiper main_visual_wrap">
-                <div class="main_slide swiper-wrapper">
-                    <div class="itm itm01 swiper-slide">
-                        <div class="img_box">
-                            <img src="./images/slide01.jpg" alt="">
+                <div class="swiper sub-slide inner">
+                    <div class="sub_slide_wrap swiper-wrapper ">
+                        <div class="itm itm01 swiper-slide">
+                            <img src="./images/poster01.jpg" alt="">
                         </div>
-                        <span class="grade grade01">12</span>
-                        <strong>서울의 봄</strong>
-                        <span class="ticket">예매율62.2%</span>
-                        <span class="star"> <i class="xi-star"></i> 9.6</span>
-                    </div>
-                    <div class="itm itm02 swiper-slide">
-                        <div class="img_box img_box01">
-                            <img src="./images/slide02.jpg" alt="">
+                        <div class="itm itm02 swiper-slide">
+                            <img src="./images/poster02.jpg" alt="">
                         </div>
-                        <span class="grade grade01">12</span>
-                        <strong>싱글 인 서울</strong>
-                        <span class="ticket">예매율9.0%</span>
-                        <span class="D_day">D-5</span>
-                    </div>
-                    <div class="itm itm03 swiper-slide">
-                        <div class="img_box img_box02">
-                            <img src="./images/slide03.jpg" alt="">
+                        <div class="itm itm03 swiper-slide">
+                            <img src="./images/poster03.jpg" alt="">
                         </div>
-                        <span class="grade grade01">12</span>
-                        <strong>괴물</strong>
-                        <span class="ticket">예매율6.3%</span>
-                        <span class="D_day">D-5</span>
-                    </div>
-                    <div class="itm itm04 swiper-slide">
-                        <div class="img_box">
-                            <img src="./images/slide04.jpg" alt="">
+                        <div class="itm itm04 swiper-slide">
+                            <img src="./images/poster04.jpg" alt="">
                         </div>
-                        <span class="grade grade01">12</span>
-                        <strong>프레디의 피자가게</strong>
-                        <span class="ticket">예매율3.5%</span>
-                        <span class="star"> <i class="xi-star"></i> 8.5</span>
-                    </div>
-                    <div class="itm itm05 swiper-slide">
-                        <div class="img_box">
-                            <img src="./images/slide05.jpg" alt="">
+                        <div class="itm itm05 swiper-slide">
+                            <img src="./images/poster05.jpg" alt="">
                         </div>
-                        <span class="grade grade02">ALL</span>
-                        <strong>스노우 폭스:썰매개가..</strong>
-                        <span class="ticket">예매율2.4%</span>
-                        <span class="star"> <i class="xi-star"></i> 9.1</span>
-                    </div>
-                    <div class="itm itm06 swiper-slide">
-                        <div class="img_box">
-                            <img src="./images/slide06.jpg" alt="">
+                        <div class="itm itm06 swiper-slide">
+                            <img src="./images/poster06.jpg" alt="">
                         </div>
-                        <span class="grade grade01">12</span>
-                        <strong>오늘 밤, 세계에서 이..</strong>
-                        <span class="ticket">예매율2.1%</span>
-                        <span class="star"> <i class="xi-star"></i> 9.2</span>
-                    </div>
-                    <div class="itm itm07 swiper-slide">
-                        <div class="img_box">
-                            <img src="./images/slide07.jpg" alt="">
+                        <div class="itm itm07 swiper-slide">
+                            <img src="./images/poster07.jpg" alt="">
                         </div>
-                        <span class="grade grade03">15</span>
-                        <strong>헝거게임: 노래하는 새..</strong>
-                        <span class="ticket">예매율1.9%</span>
-                        <span class="star"> <i class="xi-star"></i> 8.3</span>
-                    </div>
-                    <div class="itm itm08 swiper-slide">
-                        <div class="img_box">
-                            <img src="./images/slide08.jpg" alt="">
+                        <div class="itm itm08 swiper-slide">
+                            <img src="./images/poster08.jpg" alt="">
                         </div>
-                        <span class="grade grade02">ALL</span>
-                        <strong>그대들은 어떻게 살..</strong>
-                        <span class="ticket">예매율1.7%</span>
-                        <span class="star"> <i class="xi-star"></i> 8.2</span>
-                    </div>
-                    <div class="itm itm09 swiper-slide">
-                        <div class="img_box">
-                            <img src="./images/slide10.jpg" alt="">
+                        <div class="itm itm09 swiper-slide">
+                            <img src="./images/poster09.jpg" alt="">
                         </div>
-                        <span class="grade grade01">12</span>
-                        <strong>시간을 달리는 소녀</strong>
-                        <span class="ticket">예매율1.4%</span>
-                        <span class="star"> <i class="xi-star"></i> 7.8</span>
+                        <div class="itm itm10 swiper-slide">
+                            <img src="./images/poster10.jpg" alt="">
+                        </div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </section>
         <section class="special">
-            <div class="special01">
-                <h2>스페셜관</h2>
-                <a href="">더보기 <i class="xi-angle-right"></i></a>
-            </div>
-            <div class="inner">
-                <div class="special_box01">
-                    <img src="./images/spawn01.png" alt="">
+            <div class="special_wrap inner">
+                <div class="tit">
+                    <h2>스페셜관</h2>
+                    <a href="">더보기 <i class="xi-angle-right"></i></a>
                 </div>
-                <div class="special_box02">
-                    <img src="./images/spawn02.png" alt="">
-                </div>
-                <div class="special_box03">
-                    <img src="./images/spawn03.png" alt="">
-                </div>
-                <div class="special_box04">
-                    <img src="./images/spawn04.png" alt="">
-                </div>
-                <div class="special_box05">
-                    <img src="./images/spawn05.png" alt="">
-                </div>
-                <div class="special_box06">
-                    <img src="./images/spawn06.png" alt="">
-                </div>
-                <div class="special_box07">
-                    <img src="./images/spawn07.png" alt="">
-                </div>
-                <div class="special_box08">
-                    <img src="./images/spawn08.png" alt="">
+                <div class="special_box">
+                    <div class="box box01">
+                        <img src="./images/spawn01.png" alt="">
+                    </div>
+                    <div class="box box02">
+                        <img src="./images/spawn02.png" alt="">
+                    </div>
+                    <div class="box box03">
+                        <img src="./images/spawn03.png" alt="">
+                    </div>
+                    <div class="box box04">
+                        <img src="./images/spawn04.png" alt="">
+                    </div>
+                    <div class="box box05">
+                        <img src="./images/spawn05.png" alt="">
+                    </div>
+                    <div class="box box06">
+                        <img src="./images/spawn06.png" alt="">
+                    </div>
+                    <div class="box box07">
+                        <img src="./images/spawn07.png" alt="">
+                    </div>
+                    <div class="box box08">
+                        <img src="./images/spawn08.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
         <section class="event">
-            <div class="event01">
-                <span>이벤트</span>
-                <a href="">더보기 <i class="xi-angle-right"></i></a>
-            </div>
-            <div class="event_wrap">
-                <div class="event_box01 event_box">
-                    <img src="./images/event01.jpg" alt="">
+            <div class="event_wrap inner">
+                <div class="event01">
+                    <h2>이벤트</h2>
+                    <a href="">더보기 <i class="xi-angle-right"></i></a>
                 </div>
-                <div class="event_box02 event_box">
-                    <img src="./images/event02.jpg" alt="">
-                </div>
-                <div class="event_box03 event_box">
-                    <img src="./images/event03.jpg" alt="">
-                </div>
-                <div class="event_box04 event_box">
-                    <img src="./images/event04.jpg" alt="">
-                </div>
-
-                <div class="event_box06 event_box">
-                    <img src="./images/event05.jpg" alt="">
-                </div>
-                <div class="event_box05 event_box">
-                    <img src="./images/event06.jpg" alt="">
+                <div class="event_grid_wrap">
+                    <div class="event_box01 event_box">
+                        <img src="./images/event01.jpg" alt="">
+                    </div>
+                    <div class="event_box02 event_box">
+                        <img src="./images/event02.jpg" alt="">
+                    </div>
+                    <div class="event_box03 event_box">
+                        <img src="./images/event03.jpg" alt="">
+                    </div>
+                    <div class="event_box04 event_box">
+                        <img src="./images/event04.jpg" alt="">
+                    </div>
+                    <div class="event_box06 event_box">
+                        <img src="./images/event05.jpg" alt="">
+                    </div>
+                    <div class="event_box05 event_box">
+                        <img src="./images/event06.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
         <section class="show">
-            <div class="show01">
-                <span>시사회/무대인사</span>
-                <a href="">더보기 <i class="xi-angle-right"></i></a>
-            </div>
-            <div class="show_wrap">
-                <div class="show_box">
-                    <img src="./images/show01.jpg" alt="">
+            <div class="show_wrap inner">
+                <div class="show01">
+                    <h2>시사회/무대인사</h2>
+                    <a href="">더보기 <i class="xi-angle-right"></i></a>
                 </div>
-                <div class="show_box">
-                    <img src="./images/show02.jpg" alt="">
-                </div>
-                <div class="show_box">
-                    <img src="./images/show03.jpg" alt="">
+                <div class="show_wrap">
+                    <div class="show_box">
+                        <img src="./images/show01.jpg" alt="">
+                    </div>
+                    <div class="show_box">
+                        <img src="./images/show02.jpg" alt="">
+                    </div>
+                    <div class="show_box">
+                        <img src="./images/show03.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
