@@ -8,15 +8,17 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="stylesheet" href="./css/slick.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/common.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
 
     <link rel="stylesheet" href="./css/style.css">
 
     <script src="./js/jquery-1.12.4.min.js"></script>
-    <script src="./js/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/jquery.mb.YTPlayer.min.js"></script>
     <script src="./js/custom.js"></script>
 </head>
@@ -36,73 +38,72 @@
                     <li><a href="">단체관람/대관문의</a></li>
                     <li><a href="">로그인</a></li>
                 </ul>
-                <div class="customer">
-                    <a href=""> <i class="xi-man">회원가입</i></a>
-                    <a href=""> <i class="xi-print"> 바로예매</i></a>
-                    <a href=""> <i class="xi-bars"></i></a>
-                </div>
             </div>
-            <nav class="gnb inner">
-                <ul>
-                    <li>
-                        <a href="/">예매</a>
-                        <ul class="sub">
-                            <li>예매하기</li>
-                            <li>상영시간표</li>
-                            <li>할인안내</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">영화</a>
-                        <ul class="sub">
-                            <li>홈</li>
-                            <li>현재상영작</li>
-                            <li>상영예정작</li>
-                            <li>아르떼</li>
-                            <li>국립극장</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">영화관</a>
-                        <ul class="sub">
-                            <li>스페셜관</li>
-                            <li>서울</li>
-                            <li>경기/인천</li>
-                            <li>충청/대전</li>
-                            <li>전라/광주</li>
-                            <li>경북/대구</li>
-                            <li>경남/부산/울산</li>
-                            <li>강원</li>
-                            <li>제주</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">이벤트</a>
-                        <ul class="sub">
-                            <li>홈</li>
-                            <li>영화</li>
-                            <li>시사회/무대안사</li>
-                            <li>HOT</li>
-                            <li>제휴할인</li>
-                            <li>우리동네영화관</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">스토어</a>
-                        <ul class="sub">
-                            <li>베스트</li>
-                            <li>관람권</li>
-                            <li>스낵/음료</li>
-                            <li>포토카드</li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+            <div class="header_bottom">
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="/">예매</a>
+                            <ul class="sub">
+                                <li><a href="">예매하기</a></li>
+                                <li><a href="">상영시간표</a></li>
+                                <li><a href="">할인안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">영화</a>
+                            <ul class="sub">
+                                <li><a href="">홈</a></li>
+                                <li><a href="">현재상영작</a></li>
+                                <li><a href="">상영예정작</a></li>
+                                <li><a href="">아르떼</a></li>
+                                <li><a href="">국립극장</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">영화관</a>
+                            <ul class="sub">
+                                <li><a href="">서울</a></li>
+                                <li><a href="">경기/인천</a></li>
+                                <li><a href="">충청/대전</a></li>
+                                <li><a href="">전라/광주</a></li>
+                                <li><a href="">경북/대구</a></li>
+                                <li><a href="">경남/부산/울산</a></li>
+                                <li><a href="">강원</a></li>
+                                <li><a href="">제주</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">이벤트</a>
+                            <ul class="sub">
+                                <li><a href="">홈</a></li>
+                                <li><a href="">영화</a></li>
+                                <li><a href="">시사회/무대안사</a></li>
+                                <li><a href="">HOT</a></li>
+                                <li><a href="">제휴할인</a></li>
+                                <li><a href="">우리동네영화관</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">스토어</a>
+                            <ul class="sub">
+                                <li><a href="">베스트</a></li>
+                                <li><a href="">관람권</a></li>
+                                <li><a href="">스낵/음료</a></li>
+                                <li><a href="">포토카드</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main class="main">
         <section class="main_slide">
             <div class="swiper main_slide_wrap ">
+                <div class="tit inner">
+                    <h2>예매 순위</h2>
+                </div>
                 <div class="movie_slide swiper-wrapper">
                     <div class="itm itm01 swiper-slide">
                         <div class="itm_box ">
@@ -276,6 +277,14 @@
                                 <span>전국 제패를 꿈꾸는 북산고 농구부 5인방의 꿈과 열정, 멈추지 않는 도전을 그린 영화
                                 </span>
                                 <p></p>
+                                <div class="more">
+                                    <a href="">
+                                        <em>더 알아보기</em>
+                                        <span class="material-symbols-outlined">
+                                            chevron_right
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -360,39 +369,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="special">
-            <div class="special_wrap inner">
-                <div class="tit">
-                    <h2>스페셜관</h2>
-                    <a href="">더보기 <i class="xi-angle-right"></i></a>
+                <div class="slide_btn ">
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="special_box">
-                    <div class="box box01">
-                        <img src="./images/spawn01.png" alt="">
-                    </div>
-                    <div class="box box02">
-                        <img src="./images/spawn02.png" alt="">
-                    </div>
-                    <div class="box box03">
-                        <img src="./images/spawn03.png" alt="">
-                    </div>
-                    <div class="box box04">
-                        <img src="./images/spawn04.png" alt="">
-                    </div>
-                    <div class="box box05">
-                        <img src="./images/spawn05.png" alt="">
-                    </div>
-                    <div class="box box06">
-                        <img src="./images/spawn06.png" alt="">
-                    </div>
-                    <div class="box box07">
-                        <img src="./images/spawn07.png" alt="">
-                    </div>
-                    <div class="box box08">
-                        <img src="./images/spawn08.png" alt="">
-                    </div>
+                <div class="pager">
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -403,13 +384,13 @@
                     <a href="">더보기 <i class="xi-angle-right"></i></a>
                 </div>
                 <div class="event_grid_wrap">
-                    <div class="event_box01 event_box">
+                    <div class="event_box01 event_box" data-aos="fade-up" data-aos-delay="100">
                         <img src="./images/event01.jpg" alt="">
                     </div>
-                    <div class="event_box02 event_box">
+                    <div class="event_box02 event_box" data-aos="fade-up">
                         <img src="./images/event02.jpg" alt="">
                     </div>
-                    <div class="event_box03 event_box">
+                    <div class="event_box03 event_box" data-aos="fade-up">
                         <img src="./images/event03.jpg" alt="">
                     </div>
                     <div class="event_box04 event_box">

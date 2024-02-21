@@ -13,7 +13,9 @@ $(function () {
             modifier: 1,
             slideShadows: true,
         },
-
+        pagination: {
+            el: ".swiper-pagination",
+        },
 
         navigation: {
             nextEl: ".swiper-button-next",
@@ -22,5 +24,13 @@ $(function () {
         centeredSlides: true,	//슬라이드 중앙 배치
         loop: true,	//슬라이드 반복
     });
+
+
+    $('.header_bottom .gnb li').on('mouseenter',
+        function () {
+            $('.header_bottom .gnb li').removeClass('on');
+            $(this).addClass('on');
+        })
+
 
 });
