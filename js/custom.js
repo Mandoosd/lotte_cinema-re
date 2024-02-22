@@ -1,8 +1,8 @@
 $(function () {
+    AOS.init();
 
     var mainSlide = new Swiper('.main_slide_wrap ', {
         effect: "coverflow",
-        grabCursor: true,
         centeredSlides: true,
         spaceBetween: 100,
         slidesPerView: "auto",
@@ -21,8 +21,6 @@ $(function () {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
-        centeredSlides: true,	//슬라이드 중앙 배치
-        loop: true,	//슬라이드 반복
     });
 
 
