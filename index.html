@@ -25,6 +25,11 @@
 
 <body>
     <header class="header">
+        <button class="m_btn">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </button>
         <div class="header_wrap">
             <div class="header_top inner">
                 <h1>
@@ -42,55 +47,55 @@
             <div class="header_bottom">
                 <nav class="gnb">
                     <ul>
-                        <li>
-                            <a href="/">예매</a>
+                        <li class="gnb_01">
+                            <a href="">예매</a>
                             <ul class="sub">
-                                <li><a href="">예매하기</a></li>
-                                <li><a href="">상영시간표</a></li>
-                                <li><a href="">할인안내</a></li>
+                                <li><a href="#">예매하기</a></li>
+                                <li><a href="#">상영시간표</a></li>
+                                <li><a href="#">할인안내</a></li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="gnb_02">
                             <a href="">영화</a>
                             <ul class="sub">
-                                <li><a href="">홈</a></li>
-                                <li><a href="">현재상영작</a></li>
-                                <li><a href="">상영예정작</a></li>
-                                <li><a href="">아르떼</a></li>
-                                <li><a href="">국립극장</a></li>
+                                <li><a href="#">홈</a></li>
+                                <li><a href="#">현재상영작</a></li>
+                                <li><a href="#">상영예정작</a></li>
+                                <li><a href="#">아르떼</a></li>
+                                <li><a href="#">국립극장</a></li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="gnb_03">
                             <a href="">영화관</a>
                             <ul class="sub">
-                                <li><a href="">서울</a></li>
-                                <li><a href="">경기/인천</a></li>
-                                <li><a href="">충청/대전</a></li>
-                                <li><a href="">전라/광주</a></li>
-                                <li><a href="">경북/대구</a></li>
-                                <li><a href="">경남/부산/울산</a></li>
-                                <li><a href="">강원</a></li>
-                                <li><a href="">제주</a></li>
+                                <li><a href="#">서울</a></li>
+                                <li><a href="#">경기/인천</a></li>
+                                <li><a href="#">충청/대전</a></li>
+                                <li><a href="#">전라/광주</a></li>
+                                <li><a href="#">경북/대구</a></li>
+                                <li><a href="#">경남/부산/울산</a></li>
+                                <li><a href="#">강원</a></li>
+                                <li><a href="#">제주</a></li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="gnb_04">
                             <a href="">이벤트</a>
                             <ul class="sub">
-                                <li><a href="">홈</a></li>
-                                <li><a href="">영화</a></li>
-                                <li><a href="">시사회/무대안사</a></li>
-                                <li><a href="">HOT</a></li>
-                                <li><a href="">제휴할인</a></li>
-                                <li><a href="">우리동네영화관</a></li>
+                                <li><a href="#">홈</a></li>
+                                <li><a href="#">영화</a></li>
+                                <li><a href="#">시사회/무대안사</a></li>
+                                <li><a href="#">HOT</a></li>
+                                <li><a href="#">제휴할인</a></li>
+                                <li><a href="#">우리동네영화관</a></li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="gnb_05">
                             <a href="">스토어</a>
                             <ul class="sub">
-                                <li><a href="">베스트</a></li>
-                                <li><a href="">관람권</a></li>
-                                <li><a href="">스낵/음료</a></li>
-                                <li><a href="">포토카드</a></li>
+                                <li><a href="#">베스트</a></li>
+                                <li><a href="#">관람권</a></li>
+                                <li><a href="#">스낵/음료</a></li>
+                                <li><a href="#">포토카드</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -102,6 +107,7 @@
         <section class="main_slide">
             <div class="swiper main_slide_wrap ">
                 <div class="tit inner">
+                    <em>box-office</em>
                     <h2>예매 순위</h2>
                 </div>
                 <div class="movie_slide swiper-wrapper">
@@ -370,6 +376,7 @@
                     </div>
                 </div>
                 <div class="slide_btn ">
+                    <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 </div>
                 <div class="pager">
@@ -377,17 +384,16 @@
                 </div>
             </div>
         </section>
-
         <section class="event default">
             <div class="event_wrap inner" data-aos="fade-up">
                 <div class="event_tit">
                     <div class="tit_txt">
                         <h2>Event</h2>
                     </div>
-
                     <a href=""><span class="material-symbols-outlined">
                             add
-                        </span></a>
+                        </span>
+                    </a>
                 </div>
                 <div class="event_grid_wrap">
                     <div class="event_box01 event_box">
@@ -435,7 +441,7 @@
                                 <strong>6,000</strong>
                                 <em>M포인트 사용</em>
                                 <a href="">
-                                    <div class="more">
+                                    <div class="more" data-aos="fade-left" data-aos-delay="500">
                                         자세히 보기 >
                                     </div>
                                 </a>
@@ -471,12 +477,15 @@
                 </div>
             </div>
         </section>
-
-        <section class="special default">
+        <section class="special default ">
             <div class="tit inner">
                 <div class="tit_txt">
                     <h2>Special</h2>
                 </div>
+                <a href=""><span class="material-symbols-outlined">
+                        add
+                    </span>
+                </a>
             </div>
             <div class="special_wrap inner">
                 <div class="itm itm01">
@@ -540,6 +549,7 @@
                     </a>
                 </div>
             </div>
+            <div class="ev_bg"></div>
         </section>
         <section class="premium default">
             <div class="premium_wrap">
@@ -561,97 +571,159 @@
                 </div>
             </div>
         </section>
-
         <section class="notice default">
             <div class="tit inner">
                 <h2>롯데시네마 안내</h2>
+                <a href=""><span>더보기 ></span></a>
             </div>
             <div class="notice_wrap">
-                <div class="notice_top_wrap inner">
-                    <div class="left">
+                <div class="notice_top_wrap">
+                    <div class="inner">
                         <div class="left">
-                            <em>공지사항</em><a href=""><span>L.POINT & L.PAY 시스템 점검 안내</span></a>
+                            <em>공지사항</em>
+                        </div>
+                        <div class="middle">
+                            <a href=""><span>L.POINT & L.PAY 시스템 점검 안내</span></a>
                         </div>
                         <div class="right">
-
+                            <a href="">2024-02-05</a>
                         </div>
                     </div>
-                    <div class="right">
-
-                    </div>
                 </div>
-
                 <div class="notice_bottom">
-                    <div class="itm01 itm">
-                        <a href="">
-                            <div class="itm_box">
-                                <span class="material-symbols-outlined icon">
-                                    support_agent
-                                </span>
-                                <em>
-                                    고객센터</em>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="itm02 itm">
-                        <a href="">
-                            <div class="itm_box">
-                                <i class="xi-kakaotalk icon"></i>
-                                <em>
-                                    자주 묻는 질문</em>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="itm03 itm">
-                        <a href="">
-                            <div class="itm_box">
-                                <span class="material-symbols-outlined icon">
-                                    tooltip
-                                </span>
-                                <em>
-                                    1:1 문의</em>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="itm04 itm">
-                        <a href="">
-                            <div class="itm_box">
-                                <span class="material-symbols-outlined icon">
-                                    phone_in_talk
-                                </span>
-                                <em>
-                                    단체/대관문의</em>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="itm05 itm">
-                        <a href="">
-                            <div class="itm_box">
-                                <span class="material-symbols-outlined icon">
-                                    phone_in_talk
-                                </span>
-                                <em>
-                                    분실물 문의/접수</em>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="itm06 itm">
-                        <a href="">
-                            <div class="itm_box">
-                                <span class="material-symbols-outlined icon">
-                                    phone_in_talk
-                                </span>
-                                <em>
-                                    할인안내</em>
-                            </div>
-                        </a>
+                    <div class="notice_bottom_wrap inner">
+                        <div class="itm01 itm">
+                            <a href="">
+                                <div class="itm_box">
+                                    <span class="material-symbols-outlined icon">
+                                        support_agent
+                                    </span>
+                                    <em>고객센터</em>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="itm02 itm">
+                            <a href="">
+                                <div class="itm_box"> <span class="material-symbols-outlined icon">
+                                        contact_support
+                                    </span>
+
+                                    <em>자주 묻는 질문</em>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="itm03 itm">
+                            <a href="">
+                                <div class="itm_box">
+                                    <span class="material-symbols-outlined icon">
+                                        voice_selection
+                                    </span>
+
+                                    <em>
+                                        1:1 문의</em>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="itm04 itm">
+                            <a href="">
+                                <div class="itm_box">
+                                    <span class="material-symbols-outlined icon">
+                                        groups
+                                    </span>
+                                    <em>
+                                        단체/대관문의</em>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="itm05 itm">
+                            <a href="">
+                                <div class="itm_box">
+                                    <span class="material-symbols-outlined icon">
+                                        personal_bag_question
+                                    </span>
+                                    <em>
+                                        분실물 문의/접수</em>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="itm06 itm">
+                            <a href="">
+                                <div class="itm_box">
+                                    <span class="material-symbols-outlined icon">
+                                        sell
+                                    </span>
+                                    <em>
+                                        할인안내</em>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="footer_wrap inner">
+            <div class="footer_top">
+                <ul>
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">개인정보처리방침</a></li>
+                    <li><a href="">이메일무단수집거부</a></li>
+                    <li><a href="">L.POINT회원안내</a></li>
+                    <li><a href="">채용안내</a></li>
+                    <li><a href="">광고/임대문의</a></li>
+                    <li><a href="">사회적책임</a></li>
+                </ul>
+            </div>
+            <div class="footer_middle">
+                <div class="logo">
+                    <figure><a href=""><img src="./images/logoWhite.png" alt="" /></a></figure>
+                </div>
+                <div class="lnk">
+                    <select name="lnk" id="lnk">
+                        <option value="">패밀리 사이트</option>
+                    </select>
+                    <script>
+                        $(function () {
+                            $('#lnk').on('change', function () {
+                                //console.log($(this).val());
+                                let lnk = $(this).val();
+                                lnk && window.open(lnk);
+                            })
+                        })
+                    </script>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_bottom_left">
+                    <div class="add_wrap">
+                        <address class="top">
+                            <p>서울특별시 송파구 올림픽로 300 롯데월드타워 27층</p>
+                        </address>
+                        <address class="middle">
+                            <p>대표 이메일 lottecultureworks@lotte.net</p>
+                            <p>사업자등록번호 313-87-00979</p>
+                            <p>통신판매업신고번호 제1184호 </p>
+                            <p> 사업자정보확인 </p>
+                        </address>
+                        <address class="bottom">
+                            <p> 대표이사 최병환</p>
+                            <p>개인정보 보호 책임자 김병문</p>
+                            <p>호스팅 제공자 롯데정보통신</p>
+                        </address>
+                    </div>
+                    <div class="copy">
+                        <p>COPYRIGHT &copy LOTTE Cultureworks All Right Reserved.</p>
+                    </div>
+                </div>
+                <div class="footer_bottom_right">
+                    <div class="top_right">
 
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 

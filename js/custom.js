@@ -21,14 +21,14 @@ $(function () {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
+
     });
 
+    $('.m_btn').on('click', function () {
+        $('.header_bottom').toggleClass('on');
+        $(this).toggleClass('on');
+    });
 
-    $('.header_bottom .gnb li').on('mouseenter',
-        function () {
-            $('.header_bottom .gnb li').removeClass('on');
-            $(this).addClass('on');
-        })
 
 
 });
